@@ -7,52 +7,91 @@ White: #FFF
 
 */
 
-.body {}
+.body {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
 
-.nav {
-    position: fixed;
-    display: flex;
+}
+*/*
+.nav-bar {
     color: 1A1A1A;
-    list-style-type: none;
+    display: flex;
     flex-direction: row;
-    height: 50px;
-    top: 0px;
     flex-wrap: nowrap;
-    margin: 0px;
+    align-items: baseline;
+
 }
 
-.title {
+*/*
+
+
+header {
+    border-bottom: 1px solid black;
+    position: fixed;
+    display: flex;
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-logo {
+    width: 190px;
+
+}
+.landing {
+
     background-image: url("../images/landing.jpg");
     width: fit-content;
     color: white;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.landing{
-height: 1500px;
+    margin-top: 20px;
 }
 
 
-.logo-nav {
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-}
 
 .benefits {
     display: flex;
     flex-direction: row;
     height: 500px;
+    align-items: center;
+    text-align: center;
 
+}
+
+
+#h2{
+    color: #00B172;
 }
 
 .green {
     background-color: #00B172;
     height: 500px;
+    display: flex;
+    color: #FFF;
+    padding: 40px 40px 40px 40px;
 
 }
 
 #logocentral {
     height: 200px;
+}
+
+#kanye {
+    float: right;
 }
