@@ -6,3 +6,53 @@ Green: #00B172
 White: #FFF
 
 */
+
+.body {}
+
+.nav {
+    position: fixed;
+    display: flex;
+    color: 1A1A1A;
+    list-style-type: none;
+    flex-direction: row;
+    height: 50px;
+    top: 0px;
+    flex-wrap: nowrap;
+    margin: 0px;
+}
+
+.title {
+    background-image: url("../images/landing.jpg");
+    width: fit-content;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing{
+height: 1500px;
+}
+
+
+.logo-nav {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+
+}
+
+.green {
+    background-color: #00B172;
+    height: 500px;
+
+}
+
+#logocentral {
+    height: 200px;
+}
