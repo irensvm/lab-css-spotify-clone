@@ -69,27 +69,35 @@ nav a {
     display: flex;
     flex-direction: row;
     height: 500px;
-    align-items: center;
+    align-items: baseline;
     text-align: center;
+    width: auto;
+
 
 }
 
 
-#h2{
+.benefits h2{
     color: #00B172;
+}
+.benefits img {
+    width: 190px;
 }
 
 .green {
     background-color: #00B172;
     height: 500px;
     display: flex;
+    flex-direction: row;
     color: #FFF;
-    padding: 40px 40px 40px 40px;
+    padding: 60px 60px 60px 60px;
+    margin: 40px 40px 40px 40px;
 
 }
 
 #logocentral {
     height: 200px;
+
 }
 
 #kanye {
