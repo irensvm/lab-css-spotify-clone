@@ -29,8 +29,9 @@ White: #FFF
 
 header {
     border-bottom: 1px solid black;
-    position: fixed;
     display: flex;
+    position: fixed;
+
 
 }
 
@@ -57,15 +58,18 @@ nav a {
     background-image: url("../images/landing.jpg");
     width: fit-content;
     color: white;
-    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 20px;
     height: 600px;
-    display: flex;
-    align-items:center ;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
 }
 
+.landing h1{
+    font-size: 54px;
+}
 
 
 .benefits {
