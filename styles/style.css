@@ -61,7 +61,8 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 20px;
-    height: 600px;
+    height: 800px;
+    width: 1000px;
     display:flex;
     flex-direction: column;
     text-align: center;
